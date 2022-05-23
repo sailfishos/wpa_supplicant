@@ -13,6 +13,7 @@ Source4:    %{name}.sysconfig
 Patch0:     0001-Revert-nl80211-Set-NL80211_ATTR_IFACE_SOCKET_OWNER-f.patch
 Patch1:     wpa_supplicant_tls.patch
 Patch2:     wpa_supplicant_dbus_service_syslog.patch
+Patch3:     0001-WAPI-Add-WAPI-support.patch
 
 BuildRequires:  pkgconfig(libnl-3.0)
 BuildRequires:  pkgconfig(dbus-1)
